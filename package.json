@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^6.18.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.5",
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
